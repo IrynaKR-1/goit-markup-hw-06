@@ -981,7 +981,7 @@ body {
 .div-input:hover .icon-modal {
   fill: var(--main-color);
 }
-.div-input:focus .icon-modal {
+.div-input:focus-within .icon-modal {
   fill: var(--main-color);
 }
 
