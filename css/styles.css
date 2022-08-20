@@ -824,15 +824,16 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-send {
+  border: none;
   background: var(--main-color);
   border-radius: 4px;
   width: 200px;
   height: 50px;
   color: var(--third-main-color);
-  padding: 10px 52px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
+  text-align: center;
   margin-top: 30px;
   margin-left: 125px;
   transition-property: box-shadow;
@@ -910,6 +911,7 @@ body {
 }
 .button-close:hover .icon-close {
   fill: var(--main-color);
+  cursor: pointer;
 }
 .button-close:focus .icon-close {
   fill: var(--main-color);
@@ -982,6 +984,7 @@ body {
 .div-input:focus .icon-modal {
   fill: var(--main-color);
 }
+
 .footer-input {
   margin-left: 93px;
 }
@@ -1038,11 +1041,14 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   text-align: left;
   padding-left: 28px;
+  border: none;
+  letter-spacing: 0.06em;
 }
 .footer-input-button:hover {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  cursor: pointer;
 }
 .footer-input-button:focus {
   background: #2196f3;
